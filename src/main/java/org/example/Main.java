@@ -28,6 +28,7 @@ public class Main {
         Course math = new Course();
         math.setCourseName("Mathematics");
         math.setInstructor("Dr. Smith");
+        math.showCourseDetails();
         math.showRole();
 
 

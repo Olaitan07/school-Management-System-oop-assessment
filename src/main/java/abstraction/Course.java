@@ -19,9 +19,13 @@ public class Course extends Person{
     public void setInstructor(String instructor) {
         this.instructor = instructor;
     }
+     public void showCourseDetails() {
+         System.out.println("Course Name: " + courseName);
+         System.out.println("Instructor: " + instructor);
+     }
 
      @Override
      public void showRole() {
-         System.out.println("im offering + getCourseName() + course");
+         System.out.println("im offering a course");
      }
 }
