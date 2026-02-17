@@ -31,6 +31,12 @@ public class Main {
         math.showRole();
 
 
+        NonAcademicStaff janitor = new NonAcademicStaff();
+        janitor.setStaffId(12345);
+        janitor.setDepartment("Maintenance");
+        janitor.setAge(45);
+        janitor.showRole();
+
 
 
 

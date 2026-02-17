@@ -22,6 +22,6 @@ public class Course extends Person{
 
      @Override
      public void showRole() {
-         System.out.println("I am a Course");
+         System.out.println("im offering + getCourseName() + course");
      }
 }
