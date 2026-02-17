@@ -20,9 +20,10 @@ public class Staff extends Person {
 
 
 
-        public void showRole() {
-                System.out.println("I am a Staff");
         }
+
+    public void showRole() {
+        System.out.println("I am a Staff");
 
     }
 }
