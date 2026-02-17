@@ -1,4 +1,5 @@
 package abstraction;
+// NonAcademicStaff class extending Staff
 
 public class NonAcademicStaff extends Staff {
     private String department;

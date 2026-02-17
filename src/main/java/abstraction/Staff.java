@@ -1,4 +1,6 @@
 package abstraction;
+
+// Staff class extending Person
 public class Staff extends Person {
     private String position;
     private double salary;
@@ -22,6 +24,7 @@ public class Staff extends Person {
 
         }
 
+        // Method to display staff details
     public void showRole() {
         System.out.println("I am a Staff");
 

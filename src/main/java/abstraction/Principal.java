@@ -1,5 +1,5 @@
 package abstraction;
-
+// Principal class extending Staff
 public class Principal extends Staff{
     private String name;
     private int age;

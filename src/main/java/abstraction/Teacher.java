@@ -1,5 +1,5 @@
 package abstraction;
-
+// Teacher class extending Staff and implementing Teachable interface
 public class Teacher extends Staff implements Teachable {
     private String subject;
 

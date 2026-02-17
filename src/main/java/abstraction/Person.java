@@ -1,5 +1,6 @@
 package abstraction;
 
+// abstraction: using abstract class to define a common structure and behavior for related classes, while allowing them to have their own specific implementations
 public abstract class Person {
     private String name;
     private int age;

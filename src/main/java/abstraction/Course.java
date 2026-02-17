@@ -1,5 +1,6 @@
 package abstraction;
 
+// Course class extending Person class
 public class Course extends Person{
     private String courseName;
     private String instructor;
@@ -19,6 +20,7 @@ public class Course extends Person{
     public void setInstructor(String instructor) {
         this.instructor = instructor;
     }
+    // Method to display course details
      public void showCourseDetails() {
          System.out.println("Course Name: " + courseName);
          System.out.println("Instructor: " + instructor);
